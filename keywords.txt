@@ -1,0 +1,58 @@
+#######################################
+# Syntax Coloring Map For htu21d
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+htu21d	KEYWORD1
+htu21_heater_status	KEYWORD1
+htu21_battery_status	KEYWORD1
+htu21_resolution	KEYWORD1
+htu21_status	KEYWORD1
+
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+is_connected	KEYWORD2
+read_serial_number	KEYWORD2
+get_heater_status	KEYWORD2
+disable_heater	KEYWORD2
+enable_heater	KEYWORD2
+get_battery_status	KEYWORD2
+reset	KEYWORD2
+read_temperature_and_relative_humidity	KEYWORD2
+set_resolution	KEYWORD2
+compute_compensated_humidity	KEYWORD2
+read_user_register	KEYWORD2
+compute_dew_point	KEYWORD2
+set_i2c_master_mode	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+htu21_i2c_hold	LITERAL1
+htu21_i2c_no_hold	LITERAL1
+
+hhtu21_status_ok	LITERAL1
+htu21_status_i2c_transfer_error	LITERAL1
+htu21_status_no_i2c_acknowledge	LITERAL1
+htu21_status_crc_error	LITERAL1
+
+htu21_heater_off	LITERAL1	
+htu21_heater_on		LITERAL1
+
+htu21_battery_ok	LITERAL1
+htu21_battery_low	LITERAL1
+
+htu21_resolution_t_14b_rh_12b 	LITERAL1
+htu21_resolution_t_12b_rh_8b	LITERAL1
+htu21_resolution_t_13b_rh_10b	LITERAL1
+htu21_resolution_t_11b_rh_11b	LITERAL1
+
