@@ -27,7 +27,7 @@ void loop() {
 
   connected = m_htu21d.is_connected();
   if (connected) {
-    Serial.println(OK ? "Sensor Connected" : "Sensor Disconnected");
+    Serial.println(connected ? "Sensor Connected" : "Sensor Disconnected");
 
     status = m_htu21d.read_temperature_and_relative_humidity(&temperature,
                                                              &humidity);
