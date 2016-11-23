@@ -12,6 +12,7 @@ void setup() {
   Serial.println("======== HTU21D =========");
   Serial.println("======== Measure =========");
 
+  m_htu21d.begin();
   status = m_htu21d.get_battery_status(&battery_status);
   Serial.println(battery_status == htu21_battery_ok ? "Battery OK"
                                                     : "Battery LOW");

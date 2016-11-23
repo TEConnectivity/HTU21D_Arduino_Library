@@ -33,6 +33,11 @@ public:
   htu21d();
 
   /**
+   * \brief Perform initial configuration. Has to be called once.
+   */
+  void begin(void);
+
+  /**
    * \brief Check whether HTU21 device is connected
    *
    * \return bool : status of HTU21

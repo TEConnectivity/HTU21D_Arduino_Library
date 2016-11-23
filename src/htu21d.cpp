@@ -74,10 +74,19 @@ uint32_t htu21_humidity_conversion_time =
     HTU21_HUMIDITY_CONVERSION_TIME_T_14b_RH_12b;
 enum htu21_i2c_master_mode i2c_master_mode;
 
-// Fonctions
+/**
+* \brief Class constructor
+*
+*/
 htu21d::htu21d(void) {
-  Wire.begin();
   i2c_master_mode = htu21_i2c_no_hold;
+}
+
+/**
+ * \brief Perform initial configuration. Has to be called once.
+ */
+void htu21d::begin(void) {
+  Wire.begin();
 }
 
 /**
