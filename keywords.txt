@@ -45,13 +45,13 @@ htu21_status_i2c_transfer_error	LITERAL1
 htu21_status_no_i2c_acknowledge	LITERAL1
 htu21_status_crc_error	LITERAL1
 
-htu21_heater_off	LITERAL1	
-htu21_heater_on		LITERAL1
+htu21_heater_off	LITERAL1
+htu21_heater_on	LITERAL1
 
 htu21_battery_ok	LITERAL1
 htu21_battery_low	LITERAL1
 
-htu21_resolution_t_14b_rh_12b 	LITERAL1
+htu21_resolution_t_14b_rh_12b	LITERAL1
 htu21_resolution_t_12b_rh_8b	LITERAL1
 htu21_resolution_t_13b_rh_10b	LITERAL1
 htu21_resolution_t_11b_rh_11b	LITERAL1
